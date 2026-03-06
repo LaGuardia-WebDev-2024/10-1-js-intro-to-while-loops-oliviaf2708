@@ -3,6 +3,14 @@ setup = function() {
   background(255,255,255);
   textSize(15);
   fill(15, 0, 255);
+}
+
+var message = "l" 
+
+var x = 20;
+while (x < 279) {
+   text(message + x, x, 10);
+   x += 50;
 
   // a handy dandy ruler across the top
   var x = 0;
@@ -15,4 +23,6 @@ setup = function() {
   text(x+300, x+300, 20);
   text(x+350, x+350, 20);
 };
+
+
 
